@@ -1,0 +1,78 @@
+:root {
+    --main-dark: #0f0f10;
+    --main-yellow: #ffd900;
+    --main-grey: #999999;
+    --main-white: #ffffff;
+}
+
+
+.logo-section {
+    width: 100vh;
+    height: 200px;
+}
+
+body {
+    background-color: var(--main-dark);
+}
+
+a,
+ul,
+li {
+    text-decoration: none;
+    color: --main-yellow;
+}
+
+.list-group-horizontal {
+    background-color: transparent;
+}
+
+.spacer {
+    aspect-ratio: 960/300;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    mix-blend-mode: normal;
+}
+
+.waves1 {
+    background-image: url('./svg/waves1.svg');
+}
+
+.flip {
+    transform: rotate(180deg);
+}
+
+.dark-text {
+    color: var(--main-dark);
+}
+
+.yellow-text {
+    color: var(--main-yellow);
+}
+
+.yellow-card {
+    background-color: var(--main-yellow);
+}
+
+h1 {
+font-family: "Bebas Neue";
+}
+a:hover {
+color: var(--main-yellow);
+}
+@media only screen and (min-width: 1000px) {
+.card {
+width:80vh;
+}
+}
+.card .image-card {
+width: 50vh;
+height: 50vh;
+}
+
+img {
+display: block;
+max-width: 40vw;
+height: auto;
+}
