@@ -73,6 +73,11 @@ height: 50vh;
 
 img {
 display: block;
-max-width: 40vw;
+max-width: 100vw;
 height: auto;
+}
+
+img .card-image {
+    display:block;
+    max-width: 100vw;
 }
